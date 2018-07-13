@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shuttle"
+            android:icon="@drawable/shuttle"
+            android:title="View Shuttle's Location" />
+        <item
+            android:id="@+id/duration"
+            android:title="View Duration and Distance"
+            android:icon="@drawable/watch"
+            />
+        <item
+            android:id="@+id/newrequest"
+            android:title="Make Anew Request"
+            android:icon="@drawable/add"
+            />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="View Profile" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Log Out" />
+
+
+
+    </group>
+
+
+
+</menu>

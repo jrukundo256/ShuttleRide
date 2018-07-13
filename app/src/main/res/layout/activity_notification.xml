@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/sendNormalSizeNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Normal Size Notification"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/sendLargeSizeNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Large Size Notification"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/sendProgressBarNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Progress Bar Notification"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/sendHeadsUpNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Heads-up Notification"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/sendCustomViewNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Custom View Notification"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/deleteProgressBarNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Progress Bar Notification"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/deleteAllNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete All Notification"
+        android:textSize="20dp" />
+
+</LinearLayout>
